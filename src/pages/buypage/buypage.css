@@ -1,0 +1,167 @@
+.buypage-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  
+  .product-details {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    align-items: center;
+  }
+  
+  .product-image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-image img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    margin-right: 40px;
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title-price {
+    margin-bottom: 30px;
+  }
+  
+  .product-info h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .price {
+    font-size: 28px;
+    color: #2b2a2a;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .description-section {
+    margin-top: 20px;
+  }
+  
+  .description {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .addToCartButton {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .addToCartButton:hover {
+    color: black;
+    background-color: white;
+    transition: 0.2s ease-out;
+  }
+  
+  .review-section {
+    margin-top: 40px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .review-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .review {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  
+  .rating {
+    color: #ffd700;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .review p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .review-date {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+  }
+  
+  .review-form {
+    margin-top: 20px;
+  }
+  
+  .rating-input {
+    margin-bottom: 15px;
+  }
+  
+  .rating-input label {
+    font-size: 16px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .star {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .star.filled {
+    color: #ffd700;
+  }
+  
+  .review-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+    box-sizing: border-box;
+  }
+  
+  .submit-review-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-review-button:hover {
+    color: black;
+    background-color: white;
+    transition: 0.2s ease-out;
+  }
